@@ -2,7 +2,7 @@
     <div class="text-teal-500">
         <div>this is onlick dropdown</div>
         <button class="bg-blue-200" @click="dropdown=!dropdown">menu</button>
-        <div class="rounded-lg bg-blue-400 animate-fadeIn" v-if="dropdown">this is dropdown</div>
+        <div class="rounded-lg bg-red-500 animate-fadeIn" v-if="dropdown">this is dropdown</div>
         <div> this is onchange</div>
         <input class="p-2 border-2" type="text" @change="count++">
         <div>
@@ -20,7 +20,9 @@ export default {
     data()
     {
         return{
-            count: 0
+            count: 0,
+            dropdown: false,
+            name: ' '
         }
     }
 }
