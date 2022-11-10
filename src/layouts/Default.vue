@@ -3,6 +3,7 @@
     <div class="head2">
         <!-- <router-link to="/" class="bg-violet-500 hover:bg-violet-900 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ...">Home</router-link> -->
         <router-link to="/" class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...">Home</router-link>
+        <router-link to="/form" class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ..." >Form</router-link>
         <div class="h">
             <!-- <h1 class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."><strong><ins>Profile</ins></strong></h1> -->
         </div>
