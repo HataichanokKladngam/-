@@ -1,15 +1,16 @@
 <template>
-    <div class="text-teal-500">
+    
+    <div class="text-purple-800">
         <div>this is onlick dropdown</div>
         <button class="bg-blue-200" @click="dropdown=!dropdown">menu</button>
         <div class="rounded-lg bg-red-500 animate-fadeIn" v-if="dropdown">this is dropdown</div>
         <div> this is onchange</div>
-        <input class="p-2 border-2" type="text" @change="count++">
+        <input type="text bg-gradient-to-r" @change="count++">
         <div>
             count is {{count}}
         </div>
         <div>this is v-mode</div>
-        <input type="text" v-model="name">
+        <input type="text bg-gradient-to-r" v-model="name">
         <div>{{name}}</div> 
     </div>
   

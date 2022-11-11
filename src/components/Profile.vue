@@ -16,10 +16,10 @@
                 {{birthday}}
             </div>
             <div class="w-2/3 mx-auto text-right space-x-3 border-t-2 p-2 mt-5">
-            <font-awesome-icon icon="fa-brands fa-instagram" class="text-2xl" />
-            <font-awesome-icon icon="fa-brands fa-twitter" class="text-2xl" />
-            <font-awesome-icon icon="fa-brands fa-facebook" class="text-2xl" />
-            <font-awesome-icon icon="fa-brands fa-github" class="text-2xl" />
+            <font-awesome-icon icon="fa-brands fa-instagram" class="text-2xl text-red-500" />
+            <font-awesome-icon icon="fa-brands fa-twitter" class="text-2xl text-blue-400" />
+            <font-awesome-icon icon="fa-brands fa-facebook" class="text-2xl text-blue-800" />
+            <font-awesome-icon icon="fa-brands fa-github" class="text-2xl text-black" />
             </div>
         </div>
     </div>
