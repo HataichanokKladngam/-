@@ -1,6 +1,6 @@
 <template>
     <div id="background" class="min-h-screen">
-        <div class="fixed bottom-0 left-0 text-purple-800 text-xl"><strong>PreDevCamp</strong></div>
+        <div class="fixed bottom-0 left-0 text-green-400 text-m"><strong>PreDevCamp</strong></div>
     <!-- <div class="bg-[url(../assets/images/back.png)]"> -->
     <div class="head" >
         <!-- <router-Link to="/Profile" 
